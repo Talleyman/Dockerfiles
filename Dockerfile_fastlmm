@@ -1,0 +1,3 @@
+FROM talleyman/eod-fastlmm:latest
+RUN mkdir -p /fastlmm/
+WORKDIR /fastlmm/
