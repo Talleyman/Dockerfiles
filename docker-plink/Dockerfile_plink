@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+MAINTAINER "Stephen Talley" spt6655@alum.uncw.edu
+COPY plink /usr/bin/
+RUN mkdir -p /plink/
+WORKDIR /plink/

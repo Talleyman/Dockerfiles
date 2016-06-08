@@ -1,5 +1,0 @@
-FROM ubuntu:latest
-MAINTAINER "Stephen Talley" spt6655@alum.uncw.edu
-COPY gemma /usr/bin/
-RUN mkdir -p /gemma/
-WORKDIR /gemma/

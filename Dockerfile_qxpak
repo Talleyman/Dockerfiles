@@ -1,7 +1,0 @@
-FROM ubuntu:latest
-MAINTAINER "Stephen Talley" spt6655@alum.uncw.edu
-RUN mkdir -p /qxpak/
-COPY qxpak /qxpak/
-RUN chmod 777 qxpak
-WORKDIR /qxpak/
-CMD qxpak
